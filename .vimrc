@@ -46,21 +46,21 @@ set langmenu=zh_CN.utf-8
 source $VIMRUNTIME/delmenu.vim  
 source $VIMRUNTIME/menu.vim  
 nnoremap K a<CR><Esc> 
-"""""""""""""""""""""" Vundle
-"set nocompatible
-"filetype off
-"
-"
-"set rtp+=~/.vim/bundle/vundle
-"call vundle#rc()
-"Bundle 'gmarik/vundle'
-"Bundle 'Valloric/ListToggle'
-"Bundle 'scrooloose/syntastic'
-"
-"
-"filetype plugin indent on
-"""""""""""""""""""""" Vundle
-"""""""omnicppcomplete
+""""""""""""""""""""" Vundle
+set nocompatible
+filetype off
+
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'Valloric/ListToggle'
+Bundle 'scrooloose/syntastic'
+
+
+filetype plugin indent on
+""""""""""""""""""""" Vundle
+""""""omnicppcomplete
 set nocp
 filetype plugin on
 """"
