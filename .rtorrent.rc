@@ -1,0 +1,14 @@
+download_rate = 0
+upload_rate = 0
+directory=/home/xs/express/media
+session=/home/xs/downloads/session
+schedule = watch_directory,5,5,load_start=/home/xs/torrent/*.torrent
+
+port_range = 6881-6890
+port_random = yes
+use_udp_trackers = yes
+dht = on
+dht_port = 9000
+peer_exchange = yes
+encryption = allow_incoming,try_outgoing,enable_retry
+check_hash = yes
