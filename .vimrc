@@ -61,14 +61,13 @@ Bundle 'scrooloose/syntastic'
 filetype plugin indent on
 """"""""""""""""""""" Vundle
 """""""omnicppcomplete
-"set nocp
-"filetype plugin on
+set nocp
+filetype plugin on
 """"
 """"set tab
 set tabstop=2 "set tab
 set shiftwidth=2 "set >> <<
 set smarttab
-
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -78,3 +77,4 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall'
