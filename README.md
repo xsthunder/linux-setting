@@ -1,2 +1,3 @@
 # setting_for_linux
-none
+goto .vim/bundle
+read readMe

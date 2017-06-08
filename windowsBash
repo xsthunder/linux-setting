@@ -1,0 +1,6 @@
+alias exp='explorer.exe .'
+
+#fix .bashrc don't work, add following to .bash_profile
+#if [ -f ~/.bashrc ]; then
+#. ~/.bashrc
+#fi
