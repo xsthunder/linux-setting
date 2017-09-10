@@ -12,6 +12,18 @@ define pa
 		print("err:pa take 2 arg")
 	end
 end
+define pan
+	if $argc == 2
+		set $i=0
+		while($i<$arg1)
+			printf "[%d]",$i
+			p *($arg0+$i)
+			set $i=$i+1
+		end
+	else 
+		print("err:pa take 2 arg")
+	end
+end
 define pw
 	set $i=0
 	while($i<10)
@@ -23,10 +35,7 @@ define pw
 end
 define pn
 	if($argc==1)
-	 	print "ch,r,v,w"
-		p $arg0->ch
-		p $arg0->r
-		p $arg0->v
-		p $arg0->w
+		p *$arg0
 	end
 end 
+
