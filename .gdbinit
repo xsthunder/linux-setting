@@ -16,7 +16,7 @@ define pan
 	if $argc == 2
 		set $i=0
 		while($i<$arg1)
-			printf "[%d]",$i
+			printf "array[%d]",$i
 			p *($arg0+$i)
 			set $i=$i+1
 		end
