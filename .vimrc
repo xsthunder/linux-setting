@@ -56,6 +56,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'Valloric/ListToggle'
 Bundle 'scrooloose/syntastic'
+Bundle 'leafgarland/typescript-vim'
 
 
 filetype plugin indent on
