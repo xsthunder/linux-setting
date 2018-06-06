@@ -8,8 +8,6 @@ filetype indent on
 set nu
 setlocal noswapfile
 set bufhidden=hide
-inoremap jk <esc>
-imap df <esc>:x
 set noswapfile
 " 代码折叠
 set foldmethod=marker
@@ -22,12 +20,7 @@ map yaa ggvG"*y
 map cv ggdG"*p
 "copy all
 imap [[ {<esc>o}<esc>O
-imap iii i++
-imap jjj j++
-imap kkk k++
 
-imap ,, <<
-imap .. >>
 set foldenable " 开始折叠
 set foldmethod=syntax " 设置语法折叠
 set foldcolumn=0 " 设置折叠区域的宽度
@@ -69,6 +62,8 @@ filetype plugin on
 set tabstop=2 "set tab
 set shiftwidth=2 "set >> <<
 set smarttab
+set expandtab "convert tab to spaces
+
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
