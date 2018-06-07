@@ -54,15 +54,18 @@ Bundle 'leafgarland/typescript-vim'
 
 filetype plugin indent on
 """"""""""""""""""""" Vundle
+
 """""""omnicppcomplete
 set nocp
 filetype plugin on
 """"
-""""set tab
+
+""""tab config
 set tabstop=2 "set tab
 set shiftwidth=2 "set >> <<
 set smarttab
 set expandtab "convert tab to spaces
+""""tab config 
 
 
 set statusline+=%#warningmsg#
@@ -75,6 +78,7 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 1
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -D XS'
    
+" fix mac backspace
 set nocompatible 
 set backspace=indent,eol,start
 
