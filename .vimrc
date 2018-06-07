@@ -74,3 +74,7 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 1
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -D XS'
+   
+set nocompatible 
+set backspace=indent,eol,start
+
