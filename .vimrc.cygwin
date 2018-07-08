@@ -55,7 +55,7 @@ nnoremap K a<CR><Esc>
 set nocompatible
 filetype off
 
-
+""" plugin
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 Bundle 'gmarik/vundle'

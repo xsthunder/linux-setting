@@ -12,15 +12,13 @@ set noswapfile
 " 代码折叠
 set foldmethod=marker
 " 共享外部剪贴板
-map <F6> zM    
-" 关闭所有折
-map <F7> zR    
-" 打开所有折叠
 map yaa ggvG"*y
 map cv ggdG"*p
 "copy all
 imap [[ {<esc>o}<esc>O
 
+
+""""""""""""""""""""""folder 
 set foldenable " 开始折叠
 set foldmethod=syntax " 设置语法折叠
 set foldcolumn=0 " 设置折叠区域的宽度
@@ -29,7 +27,12 @@ set foldclose=all " 设置为自动关闭折叠
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 " 用空格键来开关折叠
 
+"map <F6> zM    
+"" 关闭所有折
+"map <F7> zR    
+"" 打开所有折叠
 
+""""""""""""""""""""" decode or encode
 set encoding=utf-8  
 set termencoding=utf-8  
 set fileencoding=utf-8
