@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/c/Users/xs/Documents/教科書から始めよう/6.模块化编程：让事情保持简单直接/__pycache__'
-let g:netrw_dirhist_2='/home/xs/py'
-let g:netrw_dirhist_3='/home/xs/aoapc-bac2nd/ch5'
-let g:netrw_dirhist_4='/home/xs/acm/modules'
-let g:netrw_dirhist_5='/home/xs/.vim'
-let g:netrw_dirhist_6='/home/xs/.vim/autoload'
