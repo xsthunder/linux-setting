@@ -1,4 +1,3 @@
-set -e
-set $proxy = "socks://localhost:1080"
-git config --local http.proxy $proxy
-git config --local https.proxy $proxy
+proxy="socks5://localhost:1080" # equal symbol will define a var
+git config http.proxy $proxy
+git config https.proxy $proxy
