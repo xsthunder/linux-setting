@@ -1,0 +1,3 @@
+" fix mac backspace
+set nocompatible 
+set backspace=indent,eol,start
