@@ -13,17 +13,10 @@ set noswapfile
 " 代码折叠
 set foldmethod=marker
 " 共享外部剪贴板
-map <F6> zM    
-" 关闭所有折
-map <F7> zR    
-" 打开所有折叠
 map yaa ggvG"*y
 map cv ggdG"*p
 "copy all
 imap [[ {<esc>o}<esc>O
-imap iii i++
-imap jjj j++
-imap kkk k++
 
 "设置光标所在行高亮 https://www.cnblogs.com/nklzj/p/6298421.html
 set cursorcolumn "the short form is cuc
