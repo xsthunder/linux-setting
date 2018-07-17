@@ -17,6 +17,7 @@ map yaa ggvG"*y
 map cv ggdG"*p
 "copy all
 imap [[ {<esc>o}<esc>O
+set hlsearch 
 
 "设置光标所在行高亮 https://www.cnblogs.com/nklzj/p/6298421.html
 set cursorcolumn "the short form is cuc
@@ -78,6 +79,7 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall'
+
 " fix mac backspace
 set nocompatible 
 set backspace=indent,eol,start
