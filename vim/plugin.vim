@@ -1,0 +1,10 @@
+""" plugin
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+Bundle 'gmarik/vundle'
+"Bundle 'Valloric/ListToggle'
+Bundle 'scrooloose/syntastic'
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
+Bundle 'leafgarland/typescript-vim'
+Bundle 'GutenYe/json5.vim'

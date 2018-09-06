@@ -22,8 +22,8 @@ set hlsearch
 "设置光标所在行高亮 https://www.cnblogs.com/nklzj/p/6298421.html
 set cursorcolumn "the short form is cuc
 set cursorline "the short form is cul
-highlight CursorLine   ctermbg=blue
-highlight CursorColumn ctermbg=blue ctermfg=green 
+"highlight CursorLine   ctermbg=blue
+"highlight CursorColumn ctermbg=blue ctermfg=green 
 
 
 
@@ -49,14 +49,6 @@ nnoremap K a<CR><Esc>
 set nocompatible
 filetype off
 
-""" plugin
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'Valloric/ListToggle'
-Bundle 'scrooloose/syntastic'
-Bundle 'pangloss/vim-javascript'
-Bundle 'mxw/vim-jsx'
 
 
 filetype plugin indent on
