@@ -1,0 +1,6 @@
+cd installation
+git clone https://github.com/milkbikis/powerline-shell
+cd powerline-shell
+pwd
+./setup.py
+
