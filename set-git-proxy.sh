@@ -1,4 +1,5 @@
 # use socks proxy hosted at localhost:1080
+# only available for ssh protocol
 echo "Host github.com
 Hostname github.com
 User git
