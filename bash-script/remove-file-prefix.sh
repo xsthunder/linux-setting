@@ -3,15 +3,11 @@ then
 	echo "Usage: bash $0 <prefix> <dir>"
 	exit 1
 fi
+dir=$2
 prefix=$1
-set -e
 for i in $(ls $dir)
 do
-if test $i = $0
-then
-	 continue
-fi
-	cmd="mv $i ${i#$prefix}"
-	echo "mv $i ${i#$prefix}"
+	cmd="mv $dir/$i $dir/${i#$prefix}"
+	echo "$cmd"
 	$cmd
 done
