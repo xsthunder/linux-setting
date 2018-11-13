@@ -1,1 +1,1 @@
-conda install pandas keras sklearn
+conda install pandas keras tqdm scikit-learn
