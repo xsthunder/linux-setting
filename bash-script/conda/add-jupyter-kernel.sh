@@ -10,5 +10,6 @@ conda env list | grep "$myenv" > /dev/null || {
 	exit 1;
 }
 source activate $myenv
+python -m ipykernel --version > /dev/null|| pip install ipykernel
 python -m ipykernel install --user --name $myenv --display-name "Python ($myenv)"
 
