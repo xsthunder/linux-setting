@@ -1,2 +1,2 @@
-PATH="/home/xs/installation/node/bin:$PATH"
+PATH="~/installation/node/bin:$PATH"
 hpts -p 1081
