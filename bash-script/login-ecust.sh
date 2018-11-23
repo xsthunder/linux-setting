@@ -1,3 +1,9 @@
+# require
+# ecust_name
+# ecust_password
+# ecust_type -> free or others
+# in  ~/.linux-settingrc
+
 # set -e
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 source $DIR/template/add-node-to-path.sh
@@ -22,7 +28,7 @@ test -n "$ecust_username" && test -n "$ecust_password" || {
     echo "makesure ecust_username, ecust_password exits in $SRC_FILR"
     exit 1;
 }
-if test $type == 'free'
+if test "$ecust_type" == 'free'
 then
     username="${ecust_username}@free"
 fi
