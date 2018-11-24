@@ -1,4 +1,4 @@
-NODE_DIR="~/installation/node/bin"
+NODE_DIR="/home/$(whoami)/installation/node/bin"
 node --version > /dev/null 2>/dev/null || {
     PATH="${NODE_DIR}:$PATH"
     node --version > /dev/null || {
