@@ -1,12 +1,18 @@
-# copy this to ~/.ssh
-# put *.pub in ~/.ssh
-# run with root user
+# put *.pub in ./
+# run with root user `sudo -s`?
 set -e
-apt install openssh-server -y
+target_dir=~/.ssh
+test -d $target_dir || {
+    mkdir $target_dir;
+    chmod 700 $target_dir;
+}
+cd $target_dir
 for i in ./*.pub
 do
 	cat $i >> authorized_keys
 done
 chmod 600 authorized_keys
-chmod 700 ./
-service start sshd
+sshd --version && service sshd restart || {
+    apt install openssh-server -y;
+    service sshd start;
+}
