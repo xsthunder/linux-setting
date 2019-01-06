@@ -1,3 +1,0 @@
-conda create -n clean-data
-source activate clean-data
-conda install pandas tqdm python-dateutil XlsxWriter xlrd
