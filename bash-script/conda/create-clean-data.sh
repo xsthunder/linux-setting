@@ -1,3 +1,5 @@
+set -e
+
 name=clean-data
 conda create -n $name
 source activate $name
