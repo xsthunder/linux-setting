@@ -1,5 +1,0 @@
-name=sql
-conda create -n $name
-source activate $name
-conda install pandas tqdm numpy ipykernel
-conda install pyodbc
