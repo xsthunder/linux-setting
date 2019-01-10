@@ -1,9 +1,9 @@
 # https://github.com/ipython-contrib/jupyter_contrib_nbextensions
-conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -y -c conda-forge jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 
 # https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator
-conda install -c conda-forge jupyter_nbextensions_configurator
+conda install -y -c conda-forge jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 
 # https://github.com/lambdalisue/jupyter-vim-binding/wiki/Installation#add-vim_binding-to-ipython-notebook-extensions
