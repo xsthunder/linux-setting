@@ -1,3 +1,5 @@
+set -e
+
 name=data-mining
 conda create -n $name
 source activate $name
