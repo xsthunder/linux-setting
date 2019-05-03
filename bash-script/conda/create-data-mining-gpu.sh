@@ -1,7 +1,7 @@
 set -e
 
 name=data-mining-gpu
-conda create -n $name python=3.6
+conda create -n $name python=3.6 -y
 source activate $name
 conda install pandas xlrd tqdm numpy ipykernel -y
 conda install tensorflow-gpu keras-gpu \
