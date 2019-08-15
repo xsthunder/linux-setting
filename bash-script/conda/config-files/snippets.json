@@ -40,7 +40,8 @@
             "name" : "import xs_python_lib",
             "code" : [
                 "import sys",
-                "sys.path.append('/~/jupyter-ws/')",
+                "import os",
+                "sys.path.append(os.path.join('/home/', os.environ['USER'], 'jupyter-ws'))",
                 "from xs_python_lib.keras_helper.model_train_val_graph_helper import graph_on_train_val"
             ]
         }
