@@ -1,1 +1,1 @@
-echo jupyter nbconvert --to script $@
+jupyter nbconvert --to script $@
