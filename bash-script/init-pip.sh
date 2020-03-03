@@ -1,6 +1,1 @@
-mkdir ~/.pip
-echo "
- [global]
- index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-">>~/.pip/pip.conf
-
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
