@@ -16,3 +16,6 @@ git config --global core.autocrlf false # 提交检出均不转换
 
 #提交包含混合换行符的文件时给出警告
 git config --global core.safecrlf warn
+
+
+git config --global http.https://github.com.proxy socks5://127.0.0.1:10808
