@@ -2,7 +2,7 @@ function x-conda-grep(){
 	env_name=$1
 	if test -z $env_name
 	then
-		echo "usage x-conda-grep( <fuzzy conda env name>"
+		echo "usage x-conda-grep <fuzzy conda env name>"
         return 1
 	fi
 	echo $(conda env list | grep $env_name | awk '{print $1}')
@@ -11,7 +11,7 @@ function x-conda-act(){
 	env_name=$1
 	if test -z $env_name
 	then
-		echo "usage x-conda-act( <fuzzy conda env name>"
+		echo "usage x-conda-act <fuzzy conda env name>"
         return 1
 	fi
     fuz_name=$(x-conda-grep $env_name)
