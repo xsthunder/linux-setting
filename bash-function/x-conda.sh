@@ -27,4 +27,3 @@ function x-conda-act(){
 }
 export -f x-conda-grep
 export -f x-conda-act
-alias gpu='bash ~/linux-setting/bash-script/gpu-usage.sh'
